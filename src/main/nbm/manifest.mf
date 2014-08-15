@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: th/co/geniustree/netbeans/virgo/maven/project/Bundle.properties
