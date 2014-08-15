@@ -5,7 +5,6 @@
 package th.co.geniustree.virgo.maven;
 
 import java.awt.EventQueue;
-import th.co.geniustree.virgo.vts.api.ServerInstanceProviderUtils;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -33,7 +32,8 @@ import org.openide.execution.ExecutorTask;
 import org.openide.util.Exceptions;
 import org.openide.util.Task;
 import org.openide.util.TaskListener;
-import th.co.geniustree.virgo.vts.api.Deployer;
+import th.co.geniustree.virgo.server.api.Deployer;
+import th.co.geniustree.virgo.server.api.ServerInstanceProviderUtils;
 
 /**
  *

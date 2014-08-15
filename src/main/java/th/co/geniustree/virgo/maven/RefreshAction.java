@@ -9,9 +9,8 @@ import org.netbeans.api.project.Project;
 import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
 import org.openide.awt.ActionRegistration;
-import org.openide.util.Exceptions;
 import org.openide.util.NbBundle.Messages;
-import th.co.geniustree.virgo.vts.api.Deployer;
+import th.co.geniustree.virgo.server.api.Deployer;
 
 @ActionID(category = "Project", id = "th.co.geniustree.virgo.maven.RefreshAction")
 @ActionRegistration(displayName = "#CTL_RefreshAction")
